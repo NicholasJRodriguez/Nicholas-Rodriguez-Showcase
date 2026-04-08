@@ -36,10 +36,4 @@ Visualizations and exports (In '/Images')
 
 This website (In '/docs')
 
-The goal of this showcase is to present jargon free, transparanet, reproducible and professional analytical analysis.
-
-______________________________
-
-## Navigation
-
-[Projects](projects.md) * [About](about.md)
+The goal of this showcase is to present jargon free, transparent, reproducible and professional analytical analysis.
