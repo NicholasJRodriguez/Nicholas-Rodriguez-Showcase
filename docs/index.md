@@ -2,7 +2,7 @@
 
 Welcome to my project showcase.
 
-[Projects](projects.md) | [About](about.md)
+[Projects](projects.md) | [About](About)
 
 ______________________________
 
