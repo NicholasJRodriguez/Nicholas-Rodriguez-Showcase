@@ -28,12 +28,12 @@ ______________________________
 
 This repository contains:
 
-Jupyter notebooks, .ipynb, .html and .db (In '/Notebooks/)
+Jupyter notebooks, .ipynb, .html, and .db (In '/Notebooks’)
 
-Samples of utilized datasets  (In '/Data')
+Samples of utilized datasets (In '/Data')
 
 Visualizations and exports (In '/Images')
 
 This website (In '/docs')
 
-The goal of this showcase is to present jargon free, transparent, reproducible and professional analytical analysis.
+The goal of this showcase is to present jargon free, transparent, reproducible, and professional analytical analysis.
