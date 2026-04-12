@@ -8,7 +8,7 @@
 
 ## Executive Summary
 
-This project delivers a comprehensive, data-driven analysis of the electric vehicle (EV) population registered in Washington State using public data from the Washington State Department of Licensing. Through rigorous data cleaning, exploratory data analysis, and supervised and unsupervised machine learning, the analysis uncovers trends in EV adoption, pricing dynamics, and range capabilities across Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs). The findings provide actionable insights for policymakers, automotive analysts, and sustainability researchers seeking to understand the rapidly evolving EV market at the state level.
+This project delivers a comprehensive, data-driven analysis of the electric vehicle (EV) population registered in Washington State using public data from the Washington State Department of Licensing. Through data cleaning, exploratory data analysis, and supervised and unsupervised machine learning, the analysis uncovers trends in EV adoption, pricing, and range capabilities across Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs). The findings provide actionable insights for policymakers, automobile manufacturer analysts, and sustainability researchers seeking to understand the rapidly evolving EV market at the state level.
 
 ---
 
@@ -20,7 +20,7 @@ This project delivers a comprehensive, data-driven analysis of the electric vehi
 | **Date**         | April 2025 |
 | **Language**     | Python (Jupyter Notebook) |
 | **Data Source**   | Washington State Department of Licensing — Electric Vehicle Population Data |
-| **Primary Goal** | Analyze Washington State's registered EV population to identify adoption patterns, range distributions, pricing relationships, and natural market segments using EDA and machine learning |
+| **Primary Goal** | Analyze Washington State's registered EV population to identify patterns, EV range distributions, EV pricing relationships, and market segments using EDA and machine learning |
 
 ---
 
@@ -52,9 +52,9 @@ This project delivers a comprehensive, data-driven analysis of the electric vehi
 
 ### Data Cleaning & Preprocessing
 - **Missing value removal** — Dropped rows with null values in `Model Year`, `Electric Range`, `Base MSRP`, and `Electric Vehicle Type`
-- **Label standardization** — Mapped verbose EV type labels to concise codes (`"Battery Electric Vehicle (BEV)"` → `"BEV"`, `"Plug-in Hybrid Electric Vehicle (PHEV)"` → `"PHEV"`)
+- **Label standardization** — Mapped EV type labels to concise codes (`"Battery Electric Vehicle (BEV)"` → `"BEV"`, `"Plug-in Hybrid Electric Vehicle (PHEV)"` → `"PHEV"`)
 - **Type casting** — Converted categorical variables to string type for consistent encoding
-- **Zero-range filtering** — Identified and removed records with an electric range of zero, which represented missing or erroneous data rather than true vehicle specifications
+- **Zero-range filtering** — Identified and removed records with an electric range of zero, which represented missing and/or erroneous data
 - **Outlier removal** — Detected and removed a single extreme outlier (Porsche 918 Spyder, MSRP ≈ $845,000) that compressed scatterplot visualizations and distorted regression fits
 
 ### Exploratory Data Analysis
@@ -83,7 +83,7 @@ All models were built using `scikit-learn` with standardized preprocessing via `
 ## Key Findings
 
 1. **Data quality matters** — Records with an electric range of zero did not represent real-world vehicle capabilities; removing them eliminated significant distributional distortion and improved model reliability.
-2. **Outlier impact** — A single ultra-luxury vehicle (Porsche 918 Spyder, ~$845K MSRP) compressed the visual and statistical scale of the entire dataset, demonstrating the importance of outlier-aware preprocessing.
+2. **Outlier impact** — A single vehicle (Porsche 918 Spyder, ~$845K MSRP) compressed the visual and statistical scale of the entire dataset, demonstrating the importance of outlier-aware preprocessing.
 3. **BEV vs. PHEV separation** — Battery Electric Vehicles consistently exhibited higher electric ranges than Plug-in Hybrids, with clear separation visible in distribution plots and confirmed by classification models.
 4. **Range improvement over time** — Box plots of electric range by model year revealed a steady upward trend, reflecting advancements in battery technology and manufacturer investment in longer-range EVs.
 5. **Natural market segments** — K-Means clustering identified distinct groupings within the EV population, suggesting natural market tiers based on range, pricing, and vehicle type.
@@ -107,13 +107,13 @@ All models were built using `scikit-learn` with standardized preprocessing via `
 
 Nicholas-Rodriguez-Showcase/
 ├── Data/
-│   └── Electric_Vehicle_Population_Data.csv
+│   └── Sample of Electric_Vehicle_Population_Data.csv
 ├── Images/
 ├── Notebooks/
 │   └── Understanding the Electric Vehicle Landscape in the State of Washington Code.ipynb
+│       └── code.ipynb
+│       └── README.md
 ├── docs/
-└── README.md 
-
 
 ---
 
