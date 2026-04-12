@@ -131,8 +131,8 @@ pip install pandas matplotlib openpyxl jupyter
 
 ### Execution
 
-# Navigate to the porject foloder and lunach Jupyter
+# Navigate to the project folder and launch Jupyter
 cd "Notebooks/National Database of Childcare Prices Analysis"
 notebook code is .ipynb
 
-Then runs all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
+Then run all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
