@@ -62,7 +62,7 @@ This project presents a clear, accessible analysis of the National Database of C
 - Year-over-year trend analysis using `STUDYYEAR` as the temporal dimension
 
 ### Visualization Design (Gestalt Principles)
-All visualizations were designed with intentional adherence to Gestalt design principles to maximize clarity and audience trust:
+All visualizations were designed with intentional adherence to Gestalt design principles to maximize clarity and audience trust here are two examples from the analysis:
 
 | Visualization | Type | Purpose |
 |---------------|------|---------|
