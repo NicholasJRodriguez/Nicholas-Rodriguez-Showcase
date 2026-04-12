@@ -111,4 +111,22 @@ Nicholas-Rodriguez-Showcase/
 ├── docs/
 
 ---
-## How 
+## How to Run the Notebook
+
+### Prerequisites
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase.git
+cd Nicholas-Rodriguez-Showcase
+
+# Install required packages
+pip install pandas matplotlib openpyxl jupyter
+
+# Launch Jupyter and open the notebook
+jupyter notebook "Notebooks/"
+This runs all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
