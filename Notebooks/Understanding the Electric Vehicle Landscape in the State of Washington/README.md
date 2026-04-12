@@ -110,9 +110,9 @@ Nicholas-Rodriguez-Showcase/
 │   └── Sample of Electric_Vehicle_Population_Data.csv
 ├── Images/
 ├── Notebooks/
-│   └── Understanding the Electric Vehicle Landscape in the State of Washington Code.ipynb
+│   ├── Understanding the Electric Vehicle Landscape in the State of Washington Code /
+│       └── README.md ← Here
 │       └── code.ipynb
-│       └── README.md
 ├── docs/
 
 ---
