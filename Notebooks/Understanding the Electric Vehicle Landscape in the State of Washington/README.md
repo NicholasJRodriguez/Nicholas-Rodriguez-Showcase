@@ -125,7 +125,6 @@ Nicholas-Rodriguez-Showcase/
 
 ### Installation
 
-```bash
 # Clone the repository
 git clone https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase.git
 cd Nicholas-Rodriguez-Showcase
@@ -135,4 +134,5 @@ pip install pandas numpy seaborn matplotlib scikit-learn jupyter
 
 # Launch Jupyter and open the notebook
 jupyter notebook "Notebooks/Understanding the Electric Vehicle Landscape in the State of Washington Code.ipynb"
-This runs all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
+
+Then runs all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
