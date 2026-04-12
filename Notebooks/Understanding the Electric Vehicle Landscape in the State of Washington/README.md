@@ -14,7 +14,7 @@ This project delivers a comprehensive, data-driven analysis of the electric vehi
 
 ## Project Overview
 
-| Attribute        | Detail |
+| Item        | Detail(s) |
 |------------------|--------|
 | **Author**       | Nicholas Rodriguez |
 | **Date**         | April 2025 |
