@@ -117,9 +117,8 @@ Nicholas-Rodriguez-Showcase/
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
 
-### Installation
+### How to Run
 
-```bash
 # Clone the repository
 git clone https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase.git
 cd Nicholas-Rodriguez-Showcase
