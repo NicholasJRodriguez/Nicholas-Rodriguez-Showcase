@@ -3,7 +3,6 @@
 
 ## NDCP Technical-Guide Analysis
 
-```markdown
 # National Database of Childcare Prices — Technical-Guide Analysis
 
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis.ipynb)
