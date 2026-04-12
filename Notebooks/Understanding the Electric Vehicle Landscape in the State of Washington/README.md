@@ -130,11 +130,6 @@ Nicholas-Rodriguez-Showcase/
 git clone https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase.git
 cd Nicholas-Rodriguez-Showcase
 
-# (Optional) Create and activate a virtual environment
-python -m venv venv
-source venv/bin/activate        # macOS/Linux
-venv\Scripts\activate           # Windows
-
 # Install required packages
 pip install pandas numpy seaborn matplotlib scikit-learn jupyter
 
