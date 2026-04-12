@@ -17,13 +17,13 @@ This project presents a clear, accessible analysis of the National Database of C
 
 ## Project Overview
 
-| Attribute        | Detail |
+| Item        | Details |
 |------------------|--------|
 | **Author**       | Nicholas Rodriguez |
 | **Language**     | Python (Jupyter Notebook) |
 | **Data Source**   | National Database of Childcare Prices (NDCP), 2022 Release |
 | **Primary Goal** | Analyze and visualize center-based childcare costs across the United States by age group and over time, making federal pricing data accessible and interpretable |
-| **Design Philosophy** | Gestalt Principles — consistency, conciseness, clarity, transparency, and trust |
+| **Design** | Gestalt Principles — consistency, conciseness, clarity, transparency, and trust |
 
 ---
 
