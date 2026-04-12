@@ -102,11 +102,11 @@ All visualizations were designed with intentional adherence to Gestalt design pr
 
 Nicholas-Rodriguez-Showcase/
 ├── Data/
-│   └── Sample of Electric_Vehicle_Population_Data.csv
+│   └── Sample of NDCP2022.xlsx
 ├── Images/
 ├── Notebooks/
-│   └── National Database of Childcare Prices Analysis
-│       └── README.md
+│   ├── National Database of Childcare Prices Analysis/
+│       └── README.md ← Here
 │       └── code.ipynb
 ├── docs/
 
