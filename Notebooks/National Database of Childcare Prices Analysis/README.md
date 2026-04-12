@@ -127,6 +127,12 @@ cd Nicholas-Rodriguez-Showcase
 # Install required packages
 pip install pandas matplotlib openpyxl jupyter
 
-# Launch Jupyter and open the notebook
-jupyter notebook "Notebooks/"
-This runs all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
+> **Note:** 'openpyxl' may be a needed package to read he '.xlsx' file
+
+### Execution
+
+# Navigate to the porject foloder and lunach Jupyter
+cd "Notebooks/National Database of Childcare Prices Analysis"
+notebook code is .ipynb
+
+Then runs all cells sequentially (Cell → Run All) to reproduce the analysis, visualizations and model outputs.
