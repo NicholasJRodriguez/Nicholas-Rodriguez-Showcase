@@ -129,6 +129,7 @@ pip install pandas matplotlib openpyxl jupyter
 
 > **Note:** 'openpyxl' may be a needed package to read he '.xlsx' file
 
+
 ### Execution
 
 # Navigate to the porject foloder and lunach Jupyter
