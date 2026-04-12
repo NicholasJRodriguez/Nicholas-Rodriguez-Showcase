@@ -100,3 +100,15 @@ All visualizations were designed with intentional adherence to Gestalt design pr
 
 ## Repository Structure
 
+Nicholas-Rodriguez-Showcase/
+├── Data/
+│   └── Sample of Electric_Vehicle_Population_Data.csv
+├── Images/
+├── Notebooks/
+│   └── National Database of Childcare Prices Analysis
+│       └── README.md
+│       └── code.ipynb
+├── docs/
+
+---
+## How 
