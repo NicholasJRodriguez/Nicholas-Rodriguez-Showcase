@@ -226,8 +226,7 @@ pip install ipython-sql sqlalchemy pandas jupyter
 pip install numpy seaborn matplotlib textblob scikit-learn wordcloud textstat
 
 # Execution
-## Launch Jupyter
-jupyter notebook
+Launch Jupyter notebook
 
 Then open the analysis notebook and run the cells sequentially from top to bottom.
 
