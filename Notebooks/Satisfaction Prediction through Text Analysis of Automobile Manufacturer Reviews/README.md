@@ -168,7 +168,7 @@ Ridge Regression (alpha=0.1) was used due to its:
 
 ## Model Evaluation
 | Metric | Result | Interpretation | 
-|------------------|--------|
+|------|------|--------------|
 | MSR | 0.48 | Predictions deviate by approximately ±0.7 on a 1–5 scale | 
 | R² | 0.40 | The model explains 40% of rating variance | 
 
