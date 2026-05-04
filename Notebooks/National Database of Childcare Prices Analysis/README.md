@@ -48,7 +48,7 @@ This project presents a clear, accessible analysis of the National Database of C
 
 ---
 
-## Methods & Techniques
+# Methods & Techniques
 
 ### Data Cleaning & Preprocessing
 - **Column name standardization** — Stripped leading and trailing whitespace from all column headers to prevent silent key mismatches
@@ -111,27 +111,27 @@ Nicholas-Rodriguez-Showcase/
 ├── docs/
 
 ---
-## How to Run the Notebook
+# How to Run the Notebook
 
-### Prerequisites
+## Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
 
-### How to Run
+# How to Run
 
-# Clone the repository
+## Clone the repository
 git clone https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase.git
 cd Nicholas-Rodriguez-Showcase
 
-# Install required packages
+## Install required packages
 pip install pandas matplotlib openpyxl jupyter
 
 > **Note:** 'openpyxl' may be a needed package to read he '.xlsx' file
 
 
-### Execution
+# Execution
 
-# Navigate to the project folder and launch Jupyter
+## Navigate to the project folder and launch Jupyter
 cd "Notebooks/National Database of Childcare Prices Analysis"
 notebook code is .ipynb
 
