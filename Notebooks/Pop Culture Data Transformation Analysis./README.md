@@ -1,7 +1,12 @@
-# Pokémon Data Transformation & Integration — Technical‑Guide Analysis
-Jupyter Notebook
+---
 
-License: MIT
+# Pokémon Data Transformation & Integration — Technical‑Guide Analysis
+
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/SQL%20Query/Demonstrated%20SQL%20Query.ipynb)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+---
+
 
 Executive Summary
 This project demonstrates a complete, multi‑source data engineering workflow using Pokémon as a pop‑culture dataset. The analysis integrates three independent data sources:
