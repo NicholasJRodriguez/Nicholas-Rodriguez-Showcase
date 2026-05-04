@@ -200,3 +200,42 @@ Future enhancements could include:
 - Hybrid models combining text + vehicle metadata
 - Topic modeling for deeper thematic insights
 This workflow provides a scalable, interpretable foundation for text‑driven customer satisfaction analysis.
+
+
+# Repository Structure
+Nicholas-Rodriguez-Showcase/
+
+Data
+
+Images
+
+Notebooks/
+
+├── Satisfaction Prediction through Test Analysis of Automobile Manufacturer Reviews /
+
+  │   └── README.md             # Technical guide (this file)
+
+  │   └──  Satisfaction Prediction through Test Analysis of Automobile Manufacturer Reviews.ipynb              # Main demonstration notebook
+
+# How to Run the Notebook
+## Prerequisites
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
+## Install Required Packages
+pip install ipython-sql sqlalchemy pandas jupyter
+pip install numpy seaborn matplotlib textblob scikit-learn wordcloud textstat
+
+# Execution
+## Launch Jupyter
+jupyter notebook
+
+Then open the analysis notebook and run the cells sequentially from top to bottom.
+
+This will:
+- Load and clean the Honda review dataset
+- Perform exploratory data analysis
+- Engineer linguistic and structural features
+- Vectorize text using TF‑IDF
+- Apply PCA dimensionality reduction
+- Train and evaluate the Ridge Regression model
+- Extract interpretable insights from PCA components
