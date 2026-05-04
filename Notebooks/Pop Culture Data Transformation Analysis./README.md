@@ -48,6 +48,7 @@ The result is a unified, analysis‑ready dataset suitable for statistical explo
 ---
 
 2. HTML‑Scraped Dataset (Serebii.net)
+|------------------|--------|
 | Feature | Description |
 |------------------|--------|
 | Source | https://serebii.net/pokemon/gen1pokemon.shtml | 
