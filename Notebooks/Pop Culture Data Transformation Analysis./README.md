@@ -38,7 +38,7 @@ The result is a unified, analysis‑ready dataset suitable for statistical explo
 ---
 
 # Datasets Used
-1. CSV Dataset (pokemon.csv)
+CSV Dataset (pokemon.csv)
 | Feature | Description |
 |------------------|--------|
 | Source | Local CSV file | 
@@ -47,8 +47,7 @@ The result is a unified, analysis‑ready dataset suitable for statistical explo
 
 ---
 
-2. HTML‑Scraped Dataset (Serebii.net)
-|------------------|--------|
+HTML‑Scraped Dataset (Serebii.net)
 | Feature | Description |
 |------------------|--------|
 | Source | https://serebii.net/pokemon/gen1pokemon.shtml | 
@@ -58,7 +57,7 @@ The result is a unified, analysis‑ready dataset suitable for statistical explo
 
 ---
 
-3. PokeAPI Dataset
+PokeAPI Dataset
 | Feature | Description |
 |------------------|--------|
 | Source | https://pokeapi.co/api/v2/pokemon/ | 
