@@ -3,13 +3,13 @@
 
 # Honda Consumer Review Sentiment Prediction — Technical Guide
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)]([Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis.ipynb](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews.ipynb))
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ---
 
-Executive Summary
+## Executive Summary
 Automotive manufacturers increasingly rely on consumer reviews to understand satisfaction, identify reliability concerns, and strengthen brand loyalty. This project demonstrates how text regression can be used to predict a reviewer’s satisfaction rating based solely on the language used in their written review.
 Using a dataset of Honda vehicle reviews sourced from Kaggle, this analysis applies:
 - Text cleaning
@@ -21,8 +21,11 @@ Using a dataset of Honda vehicle reviews sourced from Kaggle, this analysis appl
 The result is a predictive model that explains 40% of the variance in satisfaction ratings and predicts ratings within ±0.7 points on a 1–5 scale.
 This workflow provides Honda (or any manufacturer) with a scalable method for extracting actionable insights from large volumes of unstructured consumer feedback.
 
-Project Overview
+---
+
+## Project Overview
 |  |  | 
+|------------------|--------|
 |  |  | 
 |  |  | 
 |  | Scrapped_Car_Reviews_Honda.csv | 
@@ -32,7 +35,7 @@ Project Overview
 
 
 
-Dataset Description
+## Dataset Description
 The Honda subset contains:
 - Review_Date
 - Author_Name
@@ -47,7 +50,7 @@ Initial inspection revealed:
 - Missing values across several metadata fields
 - 12,384 usable reviews after cleaning
 
-Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 Rating Distribution
 A histogram of satisfaction ratings shows:
 - A strong skew toward 5.0
@@ -55,7 +58,7 @@ A histogram of satisfaction ratings shows:
 - A meaningful presence of lower ratings (1.0–3.0)
 Insight: Honda enjoys strong brand loyalty, but lower ratings still contain valuable signals about dissatisfaction and reliability issues.
 
-Trim‑Level Satisfaction
+## Trim‑Level Satisfaction
 Trim levels (LX, EX, SC) were extracted from Vehicle_Title.
 Average ratings revealed:
 - SC trim has the highest satisfaction
@@ -63,7 +66,7 @@ Average ratings revealed:
 - LX trails
 Insight: Certain configurations deliver a more satisfying ownership experience. Honda could use this to refine trim offerings or marketing strategies.
 
-Sentiment Polarity vs. Rating
+## Sentiment Polarity vs. Rating
 Using TextBlob, sentiment polarity was compared to satisfaction ratings.
 Findings:
 - Higher polarity → higher rating
@@ -71,12 +74,12 @@ Findings:
 - Significant scatter indicates polarity alone is insufficient
 Insight: Emotional tone correlates with satisfaction, but deeper linguistic features are needed for accurate prediction.
 
-Word Cloud of Low‑Rated Reviews
+## Word Cloud of Low‑Rated Reviews
 A word cloud of reviews rated ≤ 3.0 highlighted terms such as:
 - transmission, warranty, noise, system, replacement, Accord
 Insight: These terms point to reliability concerns and ownership frustrations — critical areas for Honda to address.
 
-Graphical Insights Summary
+## Graphical Insights Summary
 Across all visualizations:
 - Ratings skew high, but low ratings reveal meaningful dissatisfaction themes.
 - SC trim appears most satisfying.
@@ -84,7 +87,7 @@ Across all visualizations:
 - Low‑rated reviews highlight reliability and performance issues.
 These insights justify building a predictive model to quantify how review language influences satisfaction.
 
-Data Cleaning
+## Data Cleaning
 The following columns were removed:
 - Review_Date
 - Author_Name
@@ -100,9 +103,10 @@ The Review column was cleaned by:
 - Stripping non‑alphabetic tokens
 The Rating column was filtered to valid values (1.0–5.0).
 
-Feature Engineering
+##Feature Engineering
 Several interpretable features were engineered:
 |  |  | 
+|------------------|--------|
 |  |  | 
 |  |  | 
 |  |  | 
@@ -140,13 +144,14 @@ Ridge Regression (alpha=0.1) was used due to its:
 
 Model Evaluation
 |  |  |  | 
+|------------------|--------|
 |  |  |  | 
 |  |  |  | 
 
 
 Insight: This is strong performance for subjective human‑written reviews.
 
-Interpreting Influential Words
+## Interpreting Influential Words
 Top words from PCA components reveal meaningful themes:
 Component 1 — Positive Experience
 - great, fun, love, comfortable, excellent
@@ -156,7 +161,7 @@ Component 3 — Fuel Economy
 - mpg, gas, mileage, highway, hybrid
 Insight: The model captures distinct dimensions of satisfaction — enjoyment, reliability, and efficiency.
 
-Conclusion
+## Conclusion
 This project demonstrates that:
 - Consumer language contains strong predictive signals
 - Text regression can meaningfully estimate satisfaction
@@ -167,5 +172,3 @@ Future enhancements could include:
 - Hybrid models combining text + vehicle metadata
 - Topic modeling for deeper thematic insights
 This workflow provides a scalable, interpretable foundation for text‑driven customer satisfaction analysis.
-
-
