@@ -99,7 +99,7 @@ Using Z‑scores (threshold: Z > 3):
 - Speed Outlier: Electrode
 Each outlier is flagged in the final dataset.
 ---
-#Visualization
+# Visualizations
 ## Two major visualizations were produced:
 | Visualization | Type | Purpose |
 |-------------|----|-------|
