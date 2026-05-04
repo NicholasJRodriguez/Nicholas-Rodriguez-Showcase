@@ -94,9 +94,9 @@ Notebooks/
 
 ├── SQL Query/
 
-│   └── Demonstrated SQL QUery.ipynb          # Main demonstration notebook
+  │   └── Demonstrated SQL QUery.ipynb          # Main demonstration notebook
 
-│   └──  README.md             # Technical guide (this file)
+  │   └──  README.md             # Technical guide (this file)
 
 # How to Run the Notebook
 ## Prerequisites
