@@ -26,8 +26,9 @@ Across these sources, the notebook performs:
 The result is a unified, analysis‑ready dataset suitable for statistical exploration, visualization, and machine learning workflows.
 ---
 
-Project Overview
+## Project Overview
 | Item | Description | 
+|------------------|--------|
 | Author | Nicholas Rodriguez | 
 | Language | Python (Jupyter Notebook) | 
 | Data Sources | CSV file, Serebii HTML tables, PokeAPI REST API | 
@@ -38,27 +39,30 @@ Project Overview
 
 # Datasets Used
 1. CSV Dataset (pokemon.csv)
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
+| Feature | Description |
+|------------------|--------|
+| Source | Local CSV file | 
+| Content | Pokemon attributes including types, stats, resistances and metadata | 
+| Transformations | Header cleaning, column removal, misssing value handling, and normalization | 
 
 ---
 
 2. HTML‑Scraped Dataset (Serebii.net)
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
+| Feature | Description |
+|------------------|--------|
+| Source | https://serebii.net/pokemon/gen1pokemon.shtml | 
+| Content | Generation 1 Pokemon base stats | 
+| Extraction Method | BeautifulSoup HTML parsing | 
+| Transformations | Table filtering, stat extraction, combined stat calculation, and normalization | 
 
 ---
 
 3. PokeAPI Dataset
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
+| Feature | Description |
+|------------------|--------|
+| Source | https://pokeapi.co/api/v2/pokemon/ | 
+| Content | Names, types, base staets for 1st Generation Pokemon # 1 - 151 | 
+| Transformations | JSON parsing, normalization, type grouping and outlier detection | 
 
 ---
 
@@ -80,9 +84,9 @@ Project Overview
 ## API Integration
 - Queried PokeAPI for Pokémon #1–151
 - Extracted:
-- Name
-- Primary and secondary types
-- Base stats
+  - Name
+  - Primary and secondary types
+  - Base stats
 - Normalized all stats across the full Generation 1 distribution
 - Grouped Pokémon by type(s)
 - Calculated average stats per type
@@ -97,11 +101,10 @@ Each outlier is flagged in the final dataset.
 ---
 #Visualization
 ## Two major visualizations were produced:
-|  |  |  | 
-|  |  |  | 
-|  |  |  | 
-
-
+| Visualization | Type | Purpose |
+|-------------|----|-------|
+| Combined Base Stats by Pokemon Number | Bar Chart | Compare overall stat strength across Pokemon Generation 1 | 
+| Type Based Average Stats | Aggregated table | Compare stat tendencies across Pokemon types | 
 
 # Key Findings
 - Stat distributions vary widely — HP, Defense, and Speed show extreme outliers.
