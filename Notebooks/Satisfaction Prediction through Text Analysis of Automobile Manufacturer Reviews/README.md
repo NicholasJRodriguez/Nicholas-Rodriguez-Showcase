@@ -24,14 +24,14 @@ This workflow provides Honda (or any manufacturer) with a scalable method for ex
 ---
 
 ## Project Overview
-|  |  | 
+| Item | Details | 
 |------------------|--------|
-|  |  | 
-|  |  | 
-|  | Scrapped_Car_Reviews_Honda.csv | 
-|  |  | 
-|  |  | 
-|  |  | 
+| Author | Nicholas Rodriguez | 
+| Dataset Source | Kaggle - Edmunds Consumer Car Ratings and Reviews | 
+| Subset USed | Scrapped_Car_Reviews_Honda.csv | 
+| Goal | Predict satisfaction ratings from review text | 
+| Modeling Approach | TF-IDF + PCA + Ridge Regression | 
+| Business Value | Early detection of dissatifaction, reliability concerns, and shifts in loyalty | 
 
 
 
@@ -43,22 +43,25 @@ The Honda subset contains:
 - Review_Title
 - Review
 - Rating
-- An unnamed index column
+- Index column
+  
 The target variable is Rating, a continuous value from 1.0 to 5.0 representing overall satisfaction.
+
 Initial inspection revealed:
 - 14,213 total entries
 - Missing values across several metadata fields
 - 12,384 usable reviews after cleaning
 
 ## Exploratory Data Analysis (EDA)
-Rating Distribution
+
+### Rating Distribution
 A histogram of satisfaction ratings shows:
 - A strong skew toward 5.0
 - A dense cluster between 4.0–5.0
 - A meaningful presence of lower ratings (1.0–3.0)
 Insight: Honda enjoys strong brand loyalty, but lower ratings still contain valuable signals about dissatisfaction and reliability issues.
 
-## Trim‑Level Satisfaction
+### Trim‑Level Satisfaction
 Trim levels (LX, EX, SC) were extracted from Vehicle_Title.
 Average ratings revealed:
 - SC trim has the highest satisfaction
@@ -66,7 +69,7 @@ Average ratings revealed:
 - LX trails
 Insight: Certain configurations deliver a more satisfying ownership experience. Honda could use this to refine trim offerings or marketing strategies.
 
-## Sentiment Polarity vs. Rating
+### Sentiment Polarity vs. Rating
 Using TextBlob, sentiment polarity was compared to satisfaction ratings.
 Findings:
 - Higher polarity → higher rating
@@ -74,18 +77,20 @@ Findings:
 - Significant scatter indicates polarity alone is insufficient
 Insight: Emotional tone correlates with satisfaction, but deeper linguistic features are needed for accurate prediction.
 
-## Word Cloud of Low‑Rated Reviews
+### Word Cloud of Low‑Rated Reviews
 A word cloud of reviews rated ≤ 3.0 highlighted terms such as:
 - transmission, warranty, noise, system, replacement, Accord
 Insight: These terms point to reliability concerns and ownership frustrations — critical areas for Honda to address.
 
-## Graphical Insights Summary
+### Graphical Insights Summary
 Across all visualizations:
 - Ratings skew high, but low ratings reveal meaningful dissatisfaction themes.
 - SC trim appears most satisfying.
 - Sentiment polarity correlates with satisfaction.
 - Low‑rated reviews highlight reliability and performance issues.
 These insights justify building a predictive model to quantify how review language influences satisfaction.
+
+---
 
 ## Data Cleaning
 The following columns were removed:
@@ -95,7 +100,9 @@ The following columns were removed:
 - Vehicle_Title
 - Unnamed: 0
 - Trim
+  
 Rationale: These fields do not contribute to text‑based prediction and may introduce noise.
+
 The Review column was cleaned by:
 - Lowercasing
 - Removing punctuation
@@ -103,47 +110,56 @@ The Review column was cleaned by:
 - Stripping non‑alphabetic tokens
 The Rating column was filtered to valid values (1.0–5.0).
 
-##Feature Engineering
+---
+
+## Feature Engineering
 Several interpretable features were engineered:
-|  |  | 
+| Feature | Description | 
 |------------------|--------|
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
-|  |  | 
-
-
+| word_count | Number of words in the review | 
+| char_count | Total characters | 
+| avg_word_length | Average word length | 
+| polarity | Sentiment polarity | 
+| subjectivity | Degree of subjectivity | 
+| mentions_keyword | Flags for terms like transmission, warranty and engine | 
+| flesch_reading_ease | Readability score | 
 All engineered features had 0 missing values.
 Insight: These features enrich the model and provide interpretability beyond TF‑IDF.
 
-Model Preparation
-Token Cleaning
+---
+
+## Model Preparation
+
+### Token Cleaning
 Non‑alphabetic tokens were removed to improve TF‑IDF clarity.
-TF‑IDF Vectorization
+
+### TF‑IDF Vectorization
 Parameters:
 - stop_words='english'
 - max_df=0.95
 - min_df=2
 - max_features=1000
-Train/Test Split
+  
+### Train/Test Split
 - 80% training
 - 20% testing
-PCA Dimensionality Reduction
+  
+### PCA Dimensionality Reduction
 - Retained 95% variance
 - Reduced sparsity
 - Improved Ridge interpretability
 
-Model Training — Ridge Regression
+---
+
+## Model Training — Ridge Regression
+
 Ridge Regression (alpha=0.1) was used due to its:
 - Stability in high‑dimensional spaces
 - Smooth coefficient shrinkage
 - Interpretability
 
-Model Evaluation
-|  |  |  | 
+## Model Evaluation
+| Metric | Result | Interpretation | 
 |------------------|--------|
 |  |  |  | 
 |  |  |  | 
