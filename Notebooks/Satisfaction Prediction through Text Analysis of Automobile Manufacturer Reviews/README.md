@@ -33,7 +33,7 @@ This workflow provides Honda (or any manufacturer) with a scalable method for ex
 | Modeling Approach | TF-IDF + PCA + Ridge Regression | 
 | Business Value | Early detection of dissatifaction, reliability concerns, and shifts in loyalty | 
 
-
+---
 
 ## Dataset Description
 The Honda subset contains:
@@ -52,6 +52,8 @@ Initial inspection revealed:
 - Missing values across several metadata fields
 - 12,384 usable reviews after cleaning
 
+---
+
 ## Exploratory Data Analysis (EDA)
 
 ### Rating Distribution
@@ -59,6 +61,7 @@ A histogram of satisfaction ratings shows:
 - A strong skew toward 5.0
 - A dense cluster between 4.0–5.0
 - A meaningful presence of lower ratings (1.0–3.0)
+  
 Insight: Honda enjoys strong brand loyalty, but lower ratings still contain valuable signals about dissatisfaction and reliability issues.
 
 ### Trim‑Level Satisfaction
@@ -67,6 +70,7 @@ Average ratings revealed:
 - SC trim has the highest satisfaction
 - EX follows
 - LX trails
+  
 Insight: Certain configurations deliver a more satisfying ownership experience. Honda could use this to refine trim offerings or marketing strategies.
 
 ### Sentiment Polarity vs. Rating
@@ -75,11 +79,13 @@ Findings:
 - Higher polarity → higher rating
 - Dense clustering around polarity 0.2–1.0 and ratings 4.0–5.0
 - Significant scatter indicates polarity alone is insufficient
+  
 Insight: Emotional tone correlates with satisfaction, but deeper linguistic features are needed for accurate prediction.
 
 ### Word Cloud of Low‑Rated Reviews
 A word cloud of reviews rated ≤ 3.0 highlighted terms such as:
 - transmission, warranty, noise, system, replacement, Accord
+  
 Insight: These terms point to reliability concerns and ownership frustrations — critical areas for Honda to address.
 
 ### Graphical Insights Summary
@@ -88,6 +94,7 @@ Across all visualizations:
 - SC trim appears most satisfying.
 - Sentiment polarity correlates with satisfaction.
 - Low‑rated reviews highlight reliability and performance issues.
+  
 These insights justify building a predictive model to quantify how review language influences satisfaction.
 
 ---
@@ -108,6 +115,7 @@ The Review column was cleaned by:
 - Removing punctuation
 - Normalizing whitespace
 - Stripping non‑alphabetic tokens
+  
 The Rating column was filtered to valid values (1.0–5.0).
 
 ---
@@ -125,6 +133,7 @@ Several interpretable features were engineered:
 | flesch_reading_ease | Readability score | 
 
 All engineered features had 0 missing values.
+
 Insight: These features enrich the model and provide interpretability beyond TF‑IDF.
 
 ---
@@ -150,8 +159,6 @@ Parameters:
 - Reduced sparsity
 - Improved Ridge interpretability
 
----
-
 ## Model Training — Ridge Regression
 
 Ridge Regression (alpha=0.1) was used due to its:
@@ -162,11 +169,13 @@ Ridge Regression (alpha=0.1) was used due to its:
 ## Model Evaluation
 | Metric | Result | Interpretation | 
 |------------------|--------|
-|  |  |  | 
-|  |  |  | 
+| MSR | 0.48 | Predictions deviate by approximately ±0.7 on a 1–5 scale | 
+| R² | 0.40 | The model explains 40% of rating variance | 
 
 
 Insight: This is strong performance for subjective human‑written reviews.
+
+---
 
 ## Interpreting Influential Words
 Top words from PCA components reveal meaningful themes:
@@ -177,6 +186,8 @@ Component 2 — Longevity & Reliability
 Component 3 — Fuel Economy
 - mpg, gas, mileage, highway, hybrid
 Insight: The model captures distinct dimensions of satisfaction — enjoyment, reliability, and efficiency.
+
+---
 
 ## Conclusion
 This project demonstrates that:
