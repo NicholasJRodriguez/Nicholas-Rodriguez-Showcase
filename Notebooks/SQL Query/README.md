@@ -88,9 +88,8 @@ INSERT INTO employees (name, career, salary) VALUES (...);
 - Reproducible analytical workflow design
 
 Repository Structure
-SQLite-Demo/
-├── employees.db          # Auto-created SQLite database
-├── notebook.ipynb        # Main demonstration notebook
+SQL Query/
+├── Demonstrated SQL QUery.ipynb          # Main demonstration notebook
 └── README.md             # Technical guide (this file)
 
 
