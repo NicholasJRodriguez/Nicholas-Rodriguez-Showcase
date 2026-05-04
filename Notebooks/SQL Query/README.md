@@ -52,10 +52,11 @@ Project Overview
 %sql sqlite:///employees.db
 
 
-# Table Creation
+## Table Creation
 - Dropped any existing employees table to ensure a clean environment.
 - Created a new table with four columns: id, name, career, salary.
-# Data Insertion
+  
+## Data Insertion
 - Demonstrated a common SQL error:
 “3 values for 4 columns”
 caused by specifying the id column without providing a value.
@@ -63,21 +64,21 @@ caused by specifying the id column without providing a value.
 INSERT INTO employees (name, career, salary) VALUES (...);
 
 
-# Query Execution
+## Query Execution
 - Queried employees with salaries above $50,000.
 - Returned results as a Pandas DataFrame using:
 %config SqlMagic.autopandas = True
 
 
 
-# Key Findings
+## Key Findings
 - **SQL Magic enables seamless SQL execution** inside Jupyter without external database tools.
 - **SQLite auto-increment behavior** simplifies table population when primary keys are omitted.
 - **Operational errors are instructive**—the notebook demonstrates how column/value mismatches occur and how to resolve them.
 - **Query results integrate cleanly with Pandas**, enabling downstream analysis or visualization.
 - **The workflow is fully reproducible**, allowing the database to be recreated from scratch by running all cells.
 
-# Skills Demonstrated
+## Skills Demonstrated
 - SQL schema design and table creation
 - Data insertion and constraint handling
 - Query construction and filtering
@@ -94,16 +95,16 @@ SQLite-Demo/
 
 
 
-## How to Run the Notebook
-# Prerequisites
+# How to Run the Notebook
+## Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
-# Install Required Packages
+## Install Required Packages
 pip install ipython-sql sqlalchemy pandas jupyter
 
 
-## Execution
-# Launch Jupyter
+# Execution
+## Launch Jupyter
 jupyter notebook
 
 
