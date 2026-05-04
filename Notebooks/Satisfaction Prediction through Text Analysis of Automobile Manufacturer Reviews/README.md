@@ -123,6 +123,7 @@ Several interpretable features were engineered:
 | subjectivity | Degree of subjectivity | 
 | mentions_keyword | Flags for terms like transmission, warranty and engine | 
 | flesch_reading_ease | Readability score | 
+
 All engineered features had 0 missing values.
 Insight: These features enrich the model and provide interpretability beyond TF‑IDF.
 
