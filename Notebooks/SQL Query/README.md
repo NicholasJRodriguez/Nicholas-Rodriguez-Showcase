@@ -45,8 +45,8 @@ Project Overview
 
 
 
-## Methods & Techniques
-# SQL Magic Initialization
+# Methods & Techniques
+## SQL Magic Initialization
 - Loaded the %sql extension to enable SQL execution inside notebook cells.
 - Connected to a local SQLite database using:
 %sql sqlite:///employees.db
