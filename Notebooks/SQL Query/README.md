@@ -87,7 +87,7 @@ INSERT INTO employees (name, career, salary) VALUES (...);
 - Notebook-based instructional documentation
 - Reproducible analytical workflow design
 
-Repository Structure
+# Repository Structure
 SQL Query/
 ├── Demonstrated SQL QUery.ipynb          # Main demonstration notebook
 └── README.md             # Technical guide (this file)
