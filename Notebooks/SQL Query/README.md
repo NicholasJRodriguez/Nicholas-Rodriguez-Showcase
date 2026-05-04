@@ -89,6 +89,7 @@ INSERT INTO employees (name, career, salary) VALUES (...);
 
 # Repository Structure
 Nicholas-Rodriguez-Showcase/
+Notebooks/
 ├── SQL Query/
 │   └── Demonstrated SQL QUery.ipynb          # Main demonstration notebook
 │   └──  README.md             # Technical guide (this file)
