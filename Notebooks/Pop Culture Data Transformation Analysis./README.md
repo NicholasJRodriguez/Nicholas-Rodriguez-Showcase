@@ -126,19 +126,18 @@ Each outlier is flagged in the final dataset.
 # Repository Structure
 Nicholas-Rodriguez-Showcase/
 ├── Data/
-│   └── pokemon.csv
+│   └── pokemon.xls
 ├── Notebooks/
 │   └── Pop Culture Data Transformation Analysis/
 │       ├── Pop Culture Data Transformation Analysis.ipynb
 │       └── README.md  ← Here
 
 
-
 # How to Run the Notebook
 ## Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
-Install Required Packages
+## Install Required Packages
 pip install pandas numpy matplotlib requests beautifulsoup4 sqlite3
 
 
