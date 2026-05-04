@@ -38,7 +38,7 @@ Project Overview
 ## Schema
 
 | Column | Type | Description | 
-|------------------|--------|
+|------------------|--------|--------|
 | id | INTEGER PRIMARY KEY | Auto incrementing unique identifier | 
 | name | TEXT | Employee name | 
 | career | TEXT | Job title | 
