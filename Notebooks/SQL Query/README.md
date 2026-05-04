@@ -26,7 +26,9 @@ Project Overview
 | **Design** | Clarity, transparency, reproducibility, and step-by-step instructional flow |
 
 ## Dataset Description
-| Feautre  | Description  | 
+
+| Feature  | Description  | 
+|------------------|--------|
 | Table | employees | 
 | Source | Created in notebook using SQL Magic | 
 | Purpose | Store sample employee records for demontrations of queries | 
@@ -34,7 +36,9 @@ Project Overview
 
 
 ## Schema
+
 | Column | Type | Description | 
+|------------------|--------|
 | id | INTEGER PRIMARY KEY | Auto incrementing unique identifier | 
 | name | TEXT | Employee name | 
 | career | TEXT | Job title | 
