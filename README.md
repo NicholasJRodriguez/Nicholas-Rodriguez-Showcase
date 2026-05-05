@@ -1,5 +1,6 @@
 Nicholas Rodriguez — Data Science & Machine Learning Showcase
-    [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+
+
 
 👋 Welcome
 This repository is my curated collection of data science, machine learning, and analytics projects.
