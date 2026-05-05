@@ -1,7 +1,7 @@
 
 # Dodgers 2022 Promotions Attendance Analysis — Statistical Testing & OLS Modeling
 
-[![Jupyter Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
