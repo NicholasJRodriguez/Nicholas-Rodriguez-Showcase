@@ -1,5 +1,9 @@
 # White House WAVES Access Records Analysis (2023)
 
+[![Jupyter Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington/code.ipynb)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## Executive Summary
 
 The White House publishes WAVES (Workers and Visitors Entry System) Access Records as part of its transparency initiative. While the raw data is extensive, meaningful insights require 
