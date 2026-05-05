@@ -11,7 +11,7 @@ Each notebook includes a dedicated README with:
 - Data preparation steps
 - Interpretation and insights
 - Recommendations and/or conclusions
-- 
+
 This landing page serves as the front door to everything — a clean, organized way to explore my work.
 
 ## Project Showcase
