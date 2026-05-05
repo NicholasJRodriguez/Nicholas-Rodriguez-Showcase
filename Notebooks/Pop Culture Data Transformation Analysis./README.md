@@ -2,7 +2,7 @@
 
 # Pokémon Data Transformation & Integration — Technical‑Guide Analysis
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)]([https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/SQL%20Query/Demonstrated%20SQL%20Query.ipynb](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis./Pop%20Culture%20Data%20Transformation%20Analysis.ipynb))
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis./Pop%20Culture%20Data%20Transformation%20Analysis.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 ---
