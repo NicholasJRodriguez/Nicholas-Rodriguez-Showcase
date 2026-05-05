@@ -18,7 +18,8 @@ The analysis identifies which promotions truly drive attendance and provides act
 
 ---
 
-Dataset Overview
+## Dataset Overview
+
 The dataset includes:
 - Game date (month/day mapped to 2022 calendar)
 - Attendance (attend)
@@ -27,61 +28,73 @@ The dataset includes:
   - bobblehead
   - shirt
   - cap
-Data Cleaning Steps
+ 
+### Data Cleaning Steps
 - Standardized column names
 - Stripped whitespace
 - Converted YES/NO to binary (1 = YES, 0 = NO)
 - Created a proper date column using month/day mappings
 This ensures the dataset is ready for statistical testing and regression modeling.
 
-Promotion Impact Analysis (t‑Tests)
+---
+
+## Promotion Impact Analysis (t‑Tests)
+
 Independent samples t‑tests compare mean attendance on promotion days vs. non‑promotion days.
-Fireworks Promotion
+
+### Fireworks Promotion
 - Mean difference: +45 attendees
 - p‑value: 0.98
 - Interpretation: No statistical impact
 - Recommendation: Reevaluate cost‑effectiveness
 
-Bobblehead Promotion
+### Bobblehead Promotion
 - Mean difference: +14,006 attendees
 - p‑value: 0.00
 - Interpretation: Extremely strong attendance driver
 - Recommendation: Expand bobblehead nights, especially on low‑attendance days
 
-Shirt Promotion
+### Shirt Promotion
 - Mean difference: +5,819 attendees
 - p‑value: 0.19
 - Interpretation: Moderate increase, not statistically significant
 - Recommendation: Pair shirts with other promotions (e.g., fireworks)
 
-Cap Promotion
+### Cap Promotion
 - Mean difference: –2,922 attendees
 - p‑value: 0.62
 - Interpretation: No positive effect; may even reduce turnout
 - Recommendation: Discontinue or pair with stronger promotions
 
-OLS Regression Modeling
+---
+
+## OLS Regression Modeling
+
 To quantify the individual impact of each promotion while controlling for the others, an OLS model was fit:
-Model Performance
+
+### Model Performance
 - R‑squared: 0.387
 - Promotions explain 39% of attendance variation
 - F‑statistic p‑value: 1.29e‑07
 - Model is statistically significant overall
-Promotion Coefficients
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
-|  |  |  |  | 
+
+### Promotion Coefficients
+| Promotion | Coefficient | p-value | Interpretation | 
+| Fireworks | +2,977 | 0.157 | Small effect | 
+| Bobblehead | +14,940 | 0.000 | High effect | 
+| Shirt | +8,443 | 0.036 | Moderate effect | 
+| Cap | -12 | 0.998 | No effect | 
 
 
-Interpretation
+### Interpretation
 - Bobbleheads dominate — nearly +15,000 attendees per game
 - Shirts matter — meaningful and statistically significant
 - Fireworks are weak — small, unreliable effect
 - Caps do nothing — statistically indistinguishable from zero
 
-Management‑Ready Recommendations
+---
+
+## Management‑Ready Recommendations
 1. Expand Bobblehead Promotions
 They are the single strongest driver of attendance.
 2. Increase Shirt Giveaway Nights
@@ -93,14 +106,18 @@ Caps do not attract attendees and may even reduce turnout.
 5. Combine Weak Promotions
 Pairing fireworks or caps with shirts or bobbleheads may improve performance.
 
-Assumptions
+---
+
+## Assumptions
 - Attendance is influenced by promotions independently of opponent, weather, or day of week
 - YES/NO promotion indicators accurately reflect giveaway nights
 - Attendance is measured consistently across all games
 - Promotions are assumed to be the primary variable of interest
 These assumptions were necessary due to the dataset’s structure.
 
-Conclusion
+---
+
+## Conclusion
 This analysis reveals that:
 - Bobblehead giveaways are the most effective promotion, increasing attendance by nearly 15,000 fans.
 - Shirt promotions also significantly boost turnout.
@@ -109,24 +126,23 @@ This analysis reveals that:
 Actionable takeaway:
 ➡️ More bobbleheads and shirts. Rethink fireworks. Drop caps.
 
-How to Run the Notebook
+---
+
+## How to Run the Notebook
+
 Prerequisites
 - Python 3.8+
 - Jupyter Notebook or JupyterLab
 
-Install Required Packages
+## Install Required Packages
 pip install pandas scipy statsmodels jupyter
 
-
-
-Execution
+## Execution
 Launch Jupyter
 jupyter notebook
 
-
-Run all cells sequentially to reproduce:
+### Run all cells sequentially to reproduce:
 - Data cleaning
 - Promotion impact t‑tests
 - OLS regression modeling
 - Interpretation and recommendations
-
