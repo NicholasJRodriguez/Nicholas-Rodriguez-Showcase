@@ -137,6 +137,7 @@ More bobbleheads and shirts. Rethink fireworks. Don't utilize caps.
 ## Repository Structure
 
 Nicholas-Rodriguez-Showcase/
+
 ├── Data
 
 ├── Images
