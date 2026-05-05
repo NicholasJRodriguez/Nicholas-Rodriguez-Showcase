@@ -101,14 +101,22 @@ All visualizations were designed with intentional adherence to Gestalt design pr
 ## Repository Structure
 
 Nicholas-Rodriguez-Showcase/
+
 ├── Data/
+
 │   └── Sample of NDCP2022.xlsx
-├── Images/
+
+├── Images
+
 ├── Notebooks/
+
 │   ├── National Database of Childcare Prices Analysis/
-│       └── README.md ← Here
-│       └── code.ipynb
-├── docs/
+
+│       └── README.md ← You are here
+
+│       └── National Database of Childcare Prices Analysis.ipynb
+
+├── docs
 
 ---
 # How to Run the Notebook
