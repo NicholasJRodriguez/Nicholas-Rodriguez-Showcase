@@ -4,9 +4,9 @@
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-## Dataset Source
+## Dataset Sample
 
-Jupyter Notebook  [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+[Jupyter Notebook  [Looks like the result wasn't safe to show. Let's switch things up and try something else!]](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Data/Time%20Series%20Modeling%20Data%20(us_retail_sales.xls))
 
 ## Executive Summary
 
