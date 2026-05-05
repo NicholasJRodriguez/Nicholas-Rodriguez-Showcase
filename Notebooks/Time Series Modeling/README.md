@@ -142,7 +142,7 @@ Future work could include:
 ## Repository Structure
 Nicholas-Rodriguez-Showcase/
 
-Data /
+Data/
 
 │   └── Time Series Modeling Data (us_retail_sales.xls)
 
