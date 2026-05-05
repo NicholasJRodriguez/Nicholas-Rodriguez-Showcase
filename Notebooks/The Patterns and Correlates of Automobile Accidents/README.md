@@ -218,6 +218,23 @@ Future enhancements could include:
 
 ---
 
+## Repository Structure
+Nicholas-Rodriguez-Showcase/
+
+Data
+
+Images
+
+Notebooks/
+
+├── The Patterns and Correlates of Automobile Accidents /
+
+  │   └── README.md             # Technical guide (this file)
+
+  │   └──  The Patterns and Correlates of Automobile Accidents.ipynb              # Main demonstration notebook
+
+---
+
 ## How to Run the Notebook
 
 Prerequisites
