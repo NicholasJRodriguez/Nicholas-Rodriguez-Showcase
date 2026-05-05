@@ -1,6 +1,6 @@
 # Understanding the Electric Vehicle Landscape in Washington State
 
-[![Jupyter Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington/code.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington/code.ipynb)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
