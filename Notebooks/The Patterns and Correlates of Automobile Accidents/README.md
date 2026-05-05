@@ -1,7 +1,7 @@
 ---
 # Auto Insurance Claims Analysis — Fraud Detection, Severity Modeling & Risk Profiling
 ## Dataset Source
-This analysis uses the ** Auto Insurance Claims Data** dataset by BuntyShah, available on Kaggle:
+This analysis uses the Auto Insurance Claims Data dataset by BuntyShah, available on Kaggle:
 https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data
 
 ## Executive Summary
