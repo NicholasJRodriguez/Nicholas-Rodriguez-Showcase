@@ -106,6 +106,7 @@ All models were built using `scikit-learn` with standardized preprocessing via `
 ## Repository Structure
 
 Nicholas-Rodriguez-Showcase/
+
 ├── Data/
 
 │   └── Sample of Electric_Vehicle_Population_Data.csv
