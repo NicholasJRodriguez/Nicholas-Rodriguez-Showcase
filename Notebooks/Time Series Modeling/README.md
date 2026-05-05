@@ -32,7 +32,8 @@ The data is reshaped from wide to long format and converted into a proper monthl
 
 ---
 
-Data Preparation
+## Data Preparation
+
 1. Reshaping to Long Format
 The dataset is melted into:
 
@@ -164,4 +165,3 @@ Open the notebook and run all cells sequentially to reproduce:
 - SARIMA modeling
 - Forecasting
 - RMSE evaluation
-
