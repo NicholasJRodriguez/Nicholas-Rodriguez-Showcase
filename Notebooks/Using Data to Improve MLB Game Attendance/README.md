@@ -134,6 +134,27 @@ More bobbleheads and shirts. Rethink fireworks. Don't utilize caps.
 
 ---
 
+## Repository Structure
+
+Nicholas-Rodriguez-Showcase/
+├── Data
+
+├── Images
+
+├── Notebooks/
+
+│   ├── Using Data to Improve MLB Game Attendance /
+
+│       └── README.md ← You are here
+
+│       └── Using Data to Improve MLB Game Attendance.ipynb
+
+├── docs
+
+---
+
+---
+
 ## How to Run the Notebook
 
 Prerequisites
