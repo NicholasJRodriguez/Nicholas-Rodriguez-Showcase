@@ -1,6 +1,6 @@
 # Auto Insurance Claims Analysis — Fraud Detection, Severity Modeling & Risk Profiling
 
-[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents.ipynb)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)]()
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
