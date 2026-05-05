@@ -16,7 +16,7 @@ This landing page serves as the front door to everything — a clean, organized 
 
 ## Project Showcase
 
-Below is a structured overview of the major projects in this repository.
+Below is a structured overview of some of the projects in this repository.
 
 Each project links to its folder and includes a short description.
 
