@@ -1,6 +1,10 @@
 
 # Dodgers 2022 Promotions Attendance Analysis — Statistical Testing & OLS Modeling
-[Looks like the result wasn't safe to show. Let's switch things up and try something else!]  [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
+
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington%20Code.ipynb)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 ---
 
