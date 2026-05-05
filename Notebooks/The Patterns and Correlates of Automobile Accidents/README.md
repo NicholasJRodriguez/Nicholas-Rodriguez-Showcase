@@ -1,11 +1,11 @@
----
 # Auto Insurance Claims Analysis — Fraud Detection, Severity Modeling & Risk Profiling
 ## Dataset Source
-This analysis uses the Auto Insurance Claims Data dataset by BuntyShah, available on Kaggle:
-https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data
+This analysis uses the Auto Insurance Claims Data dataset by BuntyShah, available on Kaggle: https://www.kaggle.com/datasets/buntyshah/auto-insurance-claims-data
 
 ## Executive Summary
-Insurance fraud is a major financial challenge, costing billions annually. This project demonstrates how data cleaning, feature engineering, dimensionality reduction, clustering, and supervised learning can uncover patterns in auto insurance claims that may indicate fraud or predict incident severity.
+
+Insurance fraud is a major financial challenge, costing billions annually. This project demonstrates how data cleaning, feature engineering, dimensionality reduction, clustering, and
+supervised learning can uncover patterns in auto insurance claims that may indicate fraud or predict incident severity.
 
 Using 1,000 auto insurance claims, this notebook:
 
