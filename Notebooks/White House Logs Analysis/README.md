@@ -1,6 +1,6 @@
 # White House WAVES Access Records Analysis (2023)
 
-[![Jupyter Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/White%20House%20Logs%20Analysis/White%20House%20Logs%20Analysis.pdf)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/White%20House%20Logs%20Analysis/White%20House%20Logs%20Analysis.pdf)
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
