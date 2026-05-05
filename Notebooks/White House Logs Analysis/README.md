@@ -142,6 +142,29 @@ These insights help transform raw transparency data into a meaningful operationa
 - Recurring visitors are defined strictly as visit_count > 1
 - The dataset reflects all WAVES entries for 2023
 
+
+---
+
+## Repository Structure
+
+Nicholas-Rodriguez-Showcase/
+
+├── Data/
+
+│   └── X
+
+├── Images
+
+├── Notebooks/
+
+│   ├── White House Logs Analysis /
+
+│       └── README.md ← You are here
+
+│       └── White House Logs Analysis.pdf
+
+├── docs
+
 ---
 
 ## How to Run the Notebook
