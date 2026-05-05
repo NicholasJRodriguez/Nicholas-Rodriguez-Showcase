@@ -6,7 +6,7 @@
 
 ## Executive Summary
 
-This project analyzes Los Angeles Dodgers 2022 home game attendance to determine which promotional events—Fireworks, Bobblehead giveaways, Shirts, and Caps—meaningfully increase turnout.\
+This project analyzes Los Angeles Dodgers 2022 home game attendance to determine which promotional events—Fireworks, Bobblehead giveaways, Shirts, and Caps—meaningfully increase turnout.
 
 Using:
 - Independent samples t‑tests
