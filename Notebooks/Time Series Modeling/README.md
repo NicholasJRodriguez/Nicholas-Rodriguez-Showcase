@@ -1,4 +1,11 @@
 # U.S. Retail Sales Forecasting — Time Series Modeling with SARIMA
+
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents.ipynb)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
+## Dataset Source
+
 Jupyter Notebook  [Looks like the result wasn't safe to show. Let's switch things up and try something else!]
 
 ## Executive Summary
