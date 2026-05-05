@@ -228,7 +228,8 @@ pip install numpy seaborn matplotlib scikit-learn xgboost imbalanced-learn
 
 ---
 
-Execution
+## Execution
+
 Launch Jupyter
 jupyter notebook
 
