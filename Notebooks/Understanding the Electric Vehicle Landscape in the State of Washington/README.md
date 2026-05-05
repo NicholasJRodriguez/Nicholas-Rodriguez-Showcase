@@ -107,13 +107,20 @@ All models were built using `scikit-learn` with standardized preprocessing via `
 
 Nicholas-Rodriguez-Showcase/
 ├── Data/
+
 │   └── Sample of Electric_Vehicle_Population_Data.csv
-├── Images/
+
+├── Images
+
 ├── Notebooks/
+
 │   ├── Understanding the Electric Vehicle Landscape in the State of Washington Code /
-│       └── README.md ← Here
+
+│       └── README.md ← You are here
+
 │       └── code.ipynb
-├── docs/
+
+├── docs
 
 ---
 
