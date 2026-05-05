@@ -136,6 +136,25 @@ Future work could include:
 - SARIMAX with exogenous variables (CPI, unemployment, consumer sentiment)
 - Prophet or LSTM models for nonlinear patterns
 - Regime‑switching models for crisis periods
+  
+---
+
+## Repository Structure
+Nicholas-Rodriguez-Showcase/
+
+Data /
+
+│   └── Time Series Modeling Data (us_retail_sales.xls)
+
+Images
+
+Notebooks/
+
+├── Time Series Modeling /
+
+  │   └── README.md             # Technical guide (this file)
+
+  │   └──  Time Series Modeling.ipynb              # Main demonstration notebook
 
 ---
 
