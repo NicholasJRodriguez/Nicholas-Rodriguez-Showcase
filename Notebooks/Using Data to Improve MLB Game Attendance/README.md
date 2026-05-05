@@ -80,6 +80,7 @@ To quantify the individual impact of each promotion while controlling for the ot
 
 ### Promotion Coefficients
 | Promotion | Coefficient | p-value | Interpretation | 
+| --- | --- | --- | --- | 
 | Fireworks | +2,977 | 0.157 | Small effect | 
 | Bobblehead | +14,940 | 0.000 | High effect | 
 | Shirt | +8,443 | 0.036 | Moderate effect | 
@@ -124,7 +125,7 @@ This analysis reveals that:
 - Fireworks and caps do not meaningfully influence attendance.
 - A simple four‑variable model explains 39% of attendance variation, giving management a strong starting point for optimizing promotional strategy.
 Actionable takeaway:
-➡️ More bobbleheads and shirts. Rethink fireworks. Drop caps.
+More bobbleheads and shirts. Rethink fireworks. Drop caps.
 
 ---
 
