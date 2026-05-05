@@ -49,12 +49,12 @@ All duplicate rows were removed.
 Column names were normalized to lowercase snake_case.
 3. Missing Value Handling
 A conservative strategy was used:
+
 | Column Type | Strategy |
 |----------|--------| 
 | Fully Empty | Dropped | 
 | Categorical | Filled with "Unknown" | 
 | Numeric | Filled with median | 
-
 
 5. One‑Hot Encoding
 Categorical variables were encoded using:
