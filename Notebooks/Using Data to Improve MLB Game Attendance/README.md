@@ -124,8 +124,9 @@ This analysis reveals that:
 - Shirt promotions also significantly boost turnout.
 - Fireworks and caps do not meaningfully influence attendance.
 - A simple four‑variable model explains 39% of attendance variation, giving management a strong starting point for optimizing promotional strategy.
+
 Actionable takeaway:
-More bobbleheads and shirts. Rethink fireworks. Drop caps.
+More bobbleheads and shirts. Rethink fireworks. Don't utilize caps.
 
 ---
 
