@@ -14,6 +14,15 @@ Each notebook includes a dedicated README with:
 
 This landing page serves as the front door to everything — a clean, organized way to explore my work.
 
+---
+
+### How This Landing Page Works
+- This root README is the portfolio homepage.
+- Each project folder contains its own README with deeper details.
+- Visitors start here → choose a project → explore the notebook and analysis.
+
+---
+
 ## Project Showcase
 
 Below is a structured overview of some of the projects in this repository.
@@ -99,10 +108,3 @@ If you’d like to connect, collaborate, or discuss any of these projects:
 - LinkedIn: (PENDING)
 - Email: (PENDING)
 - GitHub: https://github.com/NicholasJRodriguez
-
----
-
-### How This Landing Page Works
-- This root README is your portfolio homepage.
-- Each project folder contains its own README with deeper details.
-- Visitors start here → choose a project → explore the notebook and analysis.
