@@ -20,53 +20,53 @@ Below is a structured overview of some of the projects in this repository.
 
 Each project links to its folder and includes a short description.
 
-### 1. The Patterns and Correlated of Automobile Accidents — Fraud Detection & Clustering
+### 1. The Patterns and Correlates of Automobile Accidents — Fraud Detection & Clustering
 
 Techniques: PCA, K‑Means, Random Forest, Stacking Ensemble, SMOTE
 
 Focus: Fraud pattern detection, severity prediction, risk profiling
 
 Project README:
-Notebooks/The Patterns and Correlated of Automobile Accidents/README.md
+Notebooks/The Patterns and Correlates of Automobile Accidents/README.md
 
 Notebook:
-Notebooks/The Patterns and Correlated of Automobile Accidents/The Patterns and Correlated of Automobile Accidents.ipynb
+Notebooks/The Patterns and Correlates of Automobile Accidents/The Patterns and Correlated of Automobile Accidents.ipynb
 
-### 2. U.S. Retail Sales Forecasting — SARIMA Time Series Modeling
+### 2. Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews — SARIMA Time Series Modeling
 
 Techniques: SARIMA(1,1,1)(1,1,1,12), RMSE evaluation, trend analysis
 
 Focus: Forecasting national retail sales and interpreting macroeconomic shocks
 
 Project README:
-Notebooks/US Retail Sales Forecasting/README.md
+Notebooks/Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews/README.md
 
 Notebook:
-Notebooks/US Retail Sales Forecasting/US Retail Sales Forecasting.ipynb
+Notebooks/Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews/Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews.ipynb
 
-### 3. Dodgers 2022 Promotions Attendance Analysis
+### 3. Using Data to Improve MLB Game Attendance
 
 Techniques: t‑tests, OLS regression, statistical storytelling
 
 Focus: Identifying which promotions meaningfully increase game attendance
 
 Project README:
-Notebooks/Dodgers Promotions Analysis/README.md
+Notebooks/Using Data to Improve MLB Game Attendance/README.md
 
 Notebook:
-Notebooks/Dodgers Promotions Analysis/Dodgers Promotions Analysis.ipynb
+Notebooks/Using Data to Improve MLB Game Attendance/Using Data to Improve MLB Game Attendance.ipynb
 
-### 4. White House WAVES Access Records (2023) — Visitor Analytics
+### 4. White House Logs Analysis — Visitor Analytics
 
 Techniques: Time‑based aggregation, recurring visitor detection, stacked bars, FacetGrid
 
 Focus: Understanding visitor patterns across White House and Executive Office Buildings
 
 Project README:
-Notebooks/White House Logs/README.md
+Notebooks/White House Logs Analysis/README.md
 
 Notebook:
-Notebooks/White House Logs/White House Logs.ipynb
+Notebooks/White House Logs Analysis/White House Logs Analysis.pdf
 
 ---
 
@@ -88,7 +88,7 @@ Notebooks/White House Logs/White House Logs.ipynb
 
 ### Domains
 - Fraud Detection
-- Government Transparency Data
+- Government Data Transparency
 - Sports Analytics
 - Economic Forecasting
 
@@ -104,5 +104,5 @@ If you’d like to connect, collaborate, or discuss any of these projects:
 
 ### How This Landing Page Works
 - This root README is your portfolio homepage.
-- Each project folder contains its own README with deep‑dive details.
+- Each project folder contains its own README with deeper details.
 - Visitors start here → choose a project → explore the notebook and analysis.
