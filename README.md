@@ -4,7 +4,7 @@
 
 ## Welcome
 
-This repository is my curated collection of data science, machine learning, and analytics projects.
+This repository is my curated collection of data science analytical projects.
 
 Each notebook includes a dedicated README with:
 - Clear problem framing
@@ -20,17 +20,17 @@ Below is a structured overview of some of the projects in this repository.
 
 Each project links to its folder and includes a short description.
 
-### 1. Auto Insurance Claims Analysis — Fraud Detection & Clustering
+### 1. The Patterns and Correlated of Automobile Accidents — Fraud Detection & Clustering
 
 Techniques: PCA, K‑Means, Random Forest, Stacking Ensemble, SMOTE
 
 Focus: Fraud pattern detection, severity prediction, risk profiling
 
 Project README:
-Notebooks/Auto Insurance Claims Analysis/README.md
+Notebooks/The Patterns and Correlated of Automobile Accidents/README.md
 
 Notebook:
-Notebooks/Auto Insurance Claims Analysis/Auto Insurance Claims Analysis.ipynb
+Notebooks/The Patterns and Correlated of Automobile Accidents/The Patterns and Correlated of Automobile Accidents.ipynb
 
 ### 2. U.S. Retail Sales Forecasting — SARIMA Time Series Modeling
 
