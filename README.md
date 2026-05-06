@@ -18,7 +18,7 @@ This landing page serves as the front door to everything — a clean, organized 
 
 Below is a structured overview of some of the projects in this repository.
 
-Each project links to its folder and includes a short description.
+Each outlines how to locate the project and its README which includes an indepth analysis of the project.
 
 ### 1. The Patterns and Correlates of Automobile Accidents — Fraud Detection & Clustering
 
