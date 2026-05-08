@@ -1,14 +1,11 @@
 <h1 align="center">Nicholas Rodriguez</h1>
-<h3 align="center">Data Scientist • Analyst • Storyteller</h3>
+<h3 align="center">Data Scientist • Analyst • Insurance Professional • Storyteller</h3>
 
 <p align="center">
-Turning complex data into clear, actionable insights across economics, government, sports, and business.
+Turning complex data into clear, actionable and reproducable insights across pop culture, economics, government, sports, business and more.
 </p>
 
 ---
-
-
-# Nicholas Rodriguez — Data Science & Machine Learning Showcase
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
