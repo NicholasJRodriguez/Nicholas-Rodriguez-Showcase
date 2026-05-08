@@ -32,6 +32,29 @@ Each outlines how to locate the project and its README which includes an indepth
 ### National Database of Childcare Prices Analysis 
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis)
 
+### Pop Culture Data Transformation Analysis
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis.)
+
+### SQL Query
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/SQL%20Query)
+
+### Textual Analysis
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews)
+
+### Automobile Accident Analysis
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents)
+
+### Time Series Modeling
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling)
+
+### Washington States Electric Vehicle Population Analysis With Insights
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington)
+
+### How to Improve MLB Game Attendance
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance)
+### White House WAVES Access Records Analysis
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/White%20House%20Logs%20Analysis) 
+
 
 ### 1. The Patterns and Correlates of Automobile Accidents — Fraud Detection & Clustering
 
