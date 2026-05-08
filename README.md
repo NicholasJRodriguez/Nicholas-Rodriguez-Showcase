@@ -45,6 +45,9 @@ Each outlines how to locate the project and its README which includes an indepth
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents)
 
 ### Time Series Modeling
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling) 
+
+### Time Series Modeling
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling)
 
 ### Washington States Electric Vehicle Population Analysis With Insights
@@ -54,55 +57,6 @@ Each outlines how to locate the project and its README which includes an indepth
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance)
 ### White House WAVES Access Records Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/White%20House%20Logs%20Analysis) 
-
-
-### 1. The Patterns and Correlates of Automobile Accidents — Fraud Detection & Clustering
-
-Techniques: PCA, K‑Means, Random Forest, Stacking Ensemble, SMOTE
-
-Focus: Fraud pattern detection, severity prediction, risk profiling
-
-Project README:
-Notebooks/The Patterns and Correlates of Automobile Accidents/README.md
-
-Notebook:
-Notebooks/The Patterns and Correlates of Automobile Accidents/The Patterns and Correlated of Automobile Accidents.ipynb
-
-### 2. Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews — SARIMA Time Series Modeling
-
-Techniques: SARIMA(1,1,1)(1,1,1,12), RMSE evaluation, trend analysis
-
-Focus: Forecasting national retail sales and interpreting macroeconomic shocks
-
-Project README:
-Notebooks/Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews/README.md
-
-Notebook:
-Notebooks/Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews/Satisfaction Prediction through Text Analysis of Automobile Manufacturer Reviews.ipynb
-
-### 3. Using Data to Improve MLB Game Attendance
-
-Techniques: t‑tests, OLS regression, statistical storytelling
-
-Focus: Identifying which promotions meaningfully increase game attendance
-
-Project README:
-Notebooks/Using Data to Improve MLB Game Attendance/README.md
-
-Notebook:
-Notebooks/Using Data to Improve MLB Game Attendance/Using Data to Improve MLB Game Attendance.ipynb
-
-### 4. White House Logs Analysis — Visitor Analytics
-
-Techniques: Time‑based aggregation, recurring visitor detection, stacked bars, FacetGrid
-
-Focus: Understanding visitor patterns across White House and Executive Office Buildings
-
-Project README:
-Notebooks/White House Logs Analysis/README.md
-
-Notebook:
-Notebooks/White House Logs Analysis/White House Logs Analysis.pdf
 
 ---
 
