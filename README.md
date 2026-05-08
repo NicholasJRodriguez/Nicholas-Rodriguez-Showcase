@@ -26,7 +26,7 @@ This landing page serves as the front door to everything — a clean, organized 
 ### How This Landing Page Works
 - This root README is the portfolio homepage.
 - Each project folder contains its own README with deeper details.
-- Visitors start here → choose a project → explore the notebook and analysis.
+- Visitors start here → choose a View Notebook hyperlink → explore the notebook and analysis.
 
 ---
 
