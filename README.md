@@ -25,9 +25,9 @@ This landing page serves as the front door to everything — a clean, organized 
 
 ## Project Showcase
 
-Below is a structured overview of some of the projects in this repository.
+Below is a structured overview of the projects in this repository.
 
-Each outlines how to locate the project and its README which includes an indepth analysis of the project.
+Each contains a hyperlink to the Notebook which contains its README including an indepth breakdown of the project.
 
 ### National Database of Childcare Prices Analysis 
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis)
