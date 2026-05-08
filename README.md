@@ -45,9 +45,6 @@ Each contains a hyperlink to the Notebook which contains its README including an
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents)
 
 ### Time Series Modeling
-[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling) 
-
-### Time Series Modeling
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling)
 
 ### Washington States Electric Vehicle Population Analysis With Insights
