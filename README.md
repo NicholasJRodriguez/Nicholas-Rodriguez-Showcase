@@ -29,6 +29,10 @@ Below is a structured overview of some of the projects in this repository.
 
 Each outlines how to locate the project and its README which includes an indepth analysis of the project.
 
+National Database of Childcare Prices Analysis 
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis)
+
+
 ### 1. The Patterns and Correlates of Automobile Accidents — Fraud Detection & Clustering
 
 Techniques: PCA, K‑Means, Random Forest, Stacking Ensemble, SMOTE
