@@ -121,11 +121,17 @@ Trend persistence becomes detectable at multi day horizons, improving directiona
 
 # Repository Structure
 Nicholas-Rodriguez-Showcase/
+
 ├── Data
+
 ├── Images
+
 ├── Notebooks/
+
 │   └── Predicting the Stock Market/
+
 │       ├── Predicting the Stock Market.ipynb
+
 │       └── README.md  ← Here
 
 ---
