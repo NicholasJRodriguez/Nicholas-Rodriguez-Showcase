@@ -67,10 +67,6 @@ Project Overview
 
 ## Modeling Approach
 
-Four models were developed:
-
-Modeling Approach
-Four models were developed:
 | Model | Horizon | Description | 
 |------------------|--------|-----|
 | Model 1 | 1-day | Baseline Random Forest | 
