@@ -58,10 +58,10 @@ Project Overview
 
 ### Data Preparation Steps
 
-•	Removed missing values
-•	Ensured no look ahead bias
-•	Created engineered features
-•	Applied 80/20 train test split
+- Removed missing values
+- Ensured no look ahead bias
+- Created engineered features
+- Applied 80/20 train test split
 
 ---
 
