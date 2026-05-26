@@ -122,5 +122,34 @@ Trend persistence becomes detectable at multi day horizons, improving directiona
 
 ---
 
+# Repository Structure
+Nicholas-Rodriguez-Showcase/
+├── Data
+├── Images
+├── Notebooks/
+│   └── Predicting the Stock Market/
+│       ├── Predicting the Stock Market.ipynb
+│       └── README.md  ← Here
 
+---
 
+## How to Run the Notebook
+
+### Prerequisites
+•	Python 3.8+
+•	Jupyter Notebook or JupyterLab
+
+### Install Required Packages
+
+pip install pandas numpy matplotlib seaborn yfinance scikit-learn xgboost 
+
+### Execution
+
+Run all cells sequentially to reproduce:
+•	Data download via yfinance
+•	Feature engineering
+•	Model training (RF + XGBoost)
+•	1 day and 5 day predictions
+•	Confusion matrices
+•	ROC curves
+•	Feature importance visualizations
