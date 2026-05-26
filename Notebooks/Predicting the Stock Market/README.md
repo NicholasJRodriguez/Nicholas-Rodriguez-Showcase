@@ -1,4 +1,10 @@
-S&P 500 Market Direction Prediction — Machine Learning Analysis
+---
+
+# S&P 500 Market Direction Prediction — Machine Learning Analysis
+
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis./Pop%20Culture%20Data%20Transformation%20Analysis.ipynb)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
 Executive Summary
