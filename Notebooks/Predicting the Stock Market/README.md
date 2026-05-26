@@ -20,6 +20,7 @@ This project demonstrates the limits of short term predictability and highlights
 
 Project Overview
 | Author | Nicholas Rodriguez | 
+|------------------|--------|
 | Language | Python (Jupyter Notebook) | 
 | Data Source | Yahoo Finance (yfinance) | 
 | Goal | Predict S&P 500 market direction using Machine Learning models and engineered features | 
@@ -28,57 +29,66 @@ Project Overview
 ---
 
 ### Dataset Used — S&P 500 Historical Data
-| Source | Yahho Finances (^GSPC) | 
+| Source | Yahoo Finance (^GSPC) | 
+|------------------|--------|
 | Content | Open, High, Low, and Close prices, volume and daily returns | 
 | Transformations | Missing value removal, feature engineering, lag creation, and normalization | 
 | Time Span | Historical dataset to May, 13 2026 | 
 | Predictions Targets | 1-day, 5-day, both Up/Down | 
 
 ---
-		
-|Feature|Definition|Purpose|		
-|  Return   |   Description  |  Purpose   |				
-|   Rolling Returns  |   Daily percent change  |   Short term momentum  |		
-|  Moving Averages (MA)  |   n-day cumulative returns  |   Trend persistence  |		
-|   Close/MA Rations  |  Price smoothing   |  Trned regime detection   |				
+
+### Engineered Features
+
+|Feature|Definition|Purpose|
+|------------------|--------|-----|
+|  Return   |   Daily percent change  |  Short term momentum   |				
+|   Rolling Returns  | n-day cumulative returns  |   Trend persistence  |	
+|  Moving Averages (MA)  |   Price smoothing   |  Trned regime detection   |		
+|   Close/MA Rations  |  Price relative to MA   |  Trned strength  |				
 |   Volatility20  |   20 day standard deviation  |  Market uncertainty   |			
 |   Momentum  |  Price difference over n-days   |  Quant factor   |		
 |   RSI  |  Relative Strength Index   |  Overbought / Undersold  |				
 |   Lagged Returns  |  Prior day returns  |  Autoregressive structure  |		
 |   MACD / Signal  |   Trend-following indicators  |  Momentum Shift   |			
 		
+---		
 		
-		
-## Methods & Models
+## Methods and Techniques
 
-Data Preparation Steps
+### Data Preparation Steps
 •	Removed missing values
 •	Ensured no look ahead bias
 •	Created engineered features
 •	Applied 80/20 train test split
-Data Dictionary
+
+---
+
+## Modeling Approach
+
+Four models were developed:
 
 Modeling Approach
 Four models were developed:
-1.	Baseline Random Forest (1 day)
-2.	Tuned Random Forest (1 day)
-3.	XGBoost (1 day)
-4.	XGBoost (5 day)
-   
-Evaluation Metrics
-•	Accuracy
-•	Precision, Recall, F1 Score
-•	Confusion Matrix
-•	ROC AUC
-•	Feature Importance
+| Model | Horizon | Description | 
+|------------------|--------|-----|
+| Model 1 | 1-day | Baseline Random Forest | 
+| Model 2 | 1-day | Tuned Random Forest | 
+| Model 3 | 1-day | XGBoost classifier | 
+| Model 4 | 5-day | XGBoost calssifier | 
 
-Figures
-•	Figures 1–4: Confusion Matrices (Models 1–4)
-•	Figures 5–7: ROC Curves (Models 1–3)
-•	Figure 8: Feature Importance (Model 4)
-•	Figure 9: Model 4 Performance Summary'
+### Evaluation Metrics
 
-Results
+- Accuracy
+- Precision, Recall, F1‑Score
+- Confusion Matrix
+- ROC‑AUC
+- Feature Importance
+
+---
+
+## Results Summary
+
 1 Day Models (Models 1–3)
 •	Accuracy: 0.49–0.53
 •	ROC AUC: ≈ 0.50
@@ -93,6 +103,7 @@ Daily market direction is effectively unpredictable. Even nonlinear models canno
 •	Up Day Recall: 0.80
 •	Weighted F1: 0.53
 •	ROC AUC: 0.4898
+
 Key Features:
 •	Rolling10
 •	Rolling20
@@ -102,64 +113,14 @@ Key Features:
 Interpretation:
 Trend persistence becomes detectable at multi day horizons, improving directional accuracy even when probability calibration remains weak.
 
-Cross Model Summary
+### Cross Model Summary
+
 •	1 day prediction ≈ random
 •	Accuracy can improve without improving ROC AUC
 •	5 day horizon reveals meaningful structure
 •	Feature importance aligns with financial intuition (trend following)
 
-Synopsis
-Short term (1 day) market prediction is extremely limited due to noise and volatility.
-However, extending the horizon to 5 days reveals modest but meaningful predictive structure. Machine learning can support decision making at broader horizons but should not be used as a standalone forecasting tool for daily predictions.
+---
 
-Assumptions
-•	Statistical relationships remain stable over time
-•	Historical data is representative of future behavior
-•	No look ahead bias in feature construction
 
-Challenges & Issues
-•	High noise in daily returns
-•	Class imbalance (more up days than down days)
-•	Overfitting risk, especially for 1 day models
-•	Low ROC AUC despite improved accuracy
-•	Regime dependence (market behavior varies by volatility regime)
-•	Feature instability across market conditions
-Ethically, there is risk of users misinterpreting accuracy as predictive power.
-All results must be contextualized to avoid overstating model capabilities.
-
-Future Work
-1. Multi Horizon Modeling
-Explore 10 day, 20 day, and monthly horizons.
-2. Regime Detection
-Use volatility percentiles, MA crossovers, or clustering to segment market regimes.
-3. Expanded Feature Sets
-
-Incorporate:
-•	Macroeconomic indicators
-•	Sentiment analysis
-•	Options based signals
-•	Sector rotation metrics
-
-Recommendations
-•	Use models as decision support tools, not standalone predictors
-•	Expand features gradually to avoid overfitting
-•	Focus on multi day horizons where signal is stronger
-•	Maintain transparency to prevent misinterpretation
-
-Ethical Assessment
-•	All data is publicly available (Yahoo Finance)
-•	No personal or sensitive information used
-•	All models, successful or not, were included
-•	Full transparency in feature engineering and modeling
-•	Care taken to avoid implying investment advice
-
-References
-Yahoo! Finance. (2026). S&P 500 (^GSPC).
-Aroussi, R. (2026). yfinance. PyPI.
-Just tell me what style you want.
-
-The findings show:
-•	1 day predictions are effectively random, with accuracy near 50% and ROC AUC ≈ 0.50.
-•	5 day predictions reveal modest structure, achieving ~56% accuracy and meaningful feature importance patterns.
-•	Trend based features (Rolling Returns, Moving Averages, Momentum) become more predictive at multi day horizons.
 
