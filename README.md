@@ -89,6 +89,6 @@ This landing page serves as the front door to everything — a clean, organized 
 
 ### Contact
 If you’d like to connect, collaborate, or discuss any of these projects:
-- LinkedIn: https://www.linkedin.com/in/nicholas-rodriguez/
+- LinkedIn: (PENDING)
 - Email: (PENDING)
 - GitHub: https://github.com/NicholasJRodriguez
