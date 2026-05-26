@@ -87,35 +87,35 @@ Project Overview
 ## Results Summary
 
 1 Day Models (Models 1–3)
-•	Accuracy: 0.49–0.53
-•	ROC AUC: ≈ 0.50
-•	Bias toward predicting up days due to class imbalance
-•	Feature importance inconsistent across models
+- Accuracy: 0.49–0.53
+- ROC AUC: ≈ 0.50
+- Bias toward predicting up days due to class imbalance
+- Feature importance inconsistent across models
 
 Interpretation:
 Daily market direction is effectively unpredictable. Even nonlinear models cannot extract meaningful signal from 1 day returns.
 
 5 Day Model (Model 4)
-•	Accuracy: 0.5638
-•	Up Day Recall: 0.80
-•	Weighted F1: 0.53
-•	ROC AUC: 0.4898
+- Accuracy: 0.5638
+- Up Day Recall: 0.80
+- Weighted F1: 0.53
+- ROC AUC: 0.4898
 
 Key Features:
-•	Rolling10
-•	Rolling20
-•	MA20
-•	Momentum
+- Rolling10
+- Rolling20
+- MA20
+- Momentum
 
 Interpretation:
 Trend persistence becomes detectable at multi day horizons, improving directional accuracy even when probability calibration remains weak.
 
 ### Cross Model Summary
 
-•	1 day prediction ≈ random
-•	Accuracy can improve without improving ROC AUC
-•	5 day horizon reveals meaningful structure
-•	Feature importance aligns with financial intuition (trend following)
+- 1 day prediction ≈ random
+- Accuracy can improve without improving ROC AUC
+- 5 day horizon reveals meaningful structure
+- Feature importance aligns with financial intuition (trend following)
 
 ---
 
@@ -133,8 +133,8 @@ Nicholas-Rodriguez-Showcase/
 ## How to Run the Notebook
 
 ### Prerequisites
-•	Python 3.8+
-•	Jupyter Notebook or JupyterLab
+- Python 3.8+
+- Jupyter Notebook or JupyterLab
 
 ### Install Required Packages
 
@@ -143,10 +143,10 @@ pip install pandas numpy matplotlib seaborn yfinance scikit-learn xgboost
 ### Execution
 
 Run all cells sequentially to reproduce:
-•	Data download via yfinance
-•	Feature engineering
-•	Model training (RF + XGBoost)
-•	1 day and 5 day predictions
-•	Confusion matrices
-•	ROC curves
-•	Feature importance visualizations
+- Data download via yfinance
+- Feature engineering
+- Model training (RF + XGBoost)
+- 1 day and 5 day predictions
+- Confusion matrices
+- ROC curves
+- Feature importance visualizations
