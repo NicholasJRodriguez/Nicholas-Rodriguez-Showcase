@@ -57,6 +57,7 @@ Project Overview
 ## Methods and Techniques
 
 ### Data Preparation Steps
+
 •	Removed missing values
 •	Ensured no look ahead bias
 •	Created engineered features
