@@ -39,7 +39,7 @@ This landing page serves as the front door to everything — a clean, organized 
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis.)
 
 ### Predicting the Stock Market
-[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis.)
+[View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Predicting%20the%20Stock%20Market/Predicting%20the%20Stock%20Market.ipynb)
 
 ### SQL Query
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/SQL%20Query)
