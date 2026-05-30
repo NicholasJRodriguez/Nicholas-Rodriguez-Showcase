@@ -4,10 +4,8 @@
 # National Database of Childcare Prices — Technical-Guide Analysis
 
 [![Notebook](https://img.shields.io/badge/Notebook-HTML-blue?logo=jupyter)](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis/National%20Database%20of%20Childcare%20Prices%20Analysis-Copy1.html)
-
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 [![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter)](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis/National%20Database%20of%20Childcare%20Prices%20Analysis.ipynb)
 ---
 
