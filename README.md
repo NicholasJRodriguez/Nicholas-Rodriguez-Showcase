@@ -34,6 +34,7 @@ This landing page serves as the front door to everything — a clean, organized 
 
 ### National Database of Childcare Prices Analysis 
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis)
+[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez Showcase/Notebooks/National%20Database%20of%20Childcare%20Prices%20Analysis/National%20Database%20of%20Childcare%20Prices%20Analysis-Copy1.html)
 
 ### Pop Culture Data Transformation Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis.)
