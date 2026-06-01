@@ -55,6 +55,8 @@ This landing page serves as the front door to everything — a clean, organized 
 ### Textual Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews)
 
+[View HTML](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/Notebooks/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews.html)
+
 ### Automobile Accident Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents)
 
