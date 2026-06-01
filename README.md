@@ -40,7 +40,7 @@ This landing page serves as the front door to everything — a clean, organized 
 ### Pop Culture Data Transformation Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis.)
 
-[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis./Pop%20Culture%20Data%20Transformation%20Analysis.html)
+[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/Pop%20Culture%20Data%20Transformation%20Analysis/Pop%20Culture%20Data%20Transformation%20Analysis.html)
 
 ### Predicting the Stock Market
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Predicting%20the%20Stock%20Market)
