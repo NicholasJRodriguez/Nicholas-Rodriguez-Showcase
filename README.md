@@ -54,7 +54,7 @@ This landing page serves as the front door to everything — a clean, organized 
 ### Automobile Accident Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents)
 
-[View HTML](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents.html)
+[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents.html)
 
 ### Time Series Modeling
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling)
