@@ -60,6 +60,9 @@ This landing page serves as the front door to everything — a clean, organized 
 
 ### How to Improve MLB Game Attendance
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance)
+
+[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/
+
 ### White House WAVES Access Records Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/White%20House%20Logs%20Analysis) 
 
