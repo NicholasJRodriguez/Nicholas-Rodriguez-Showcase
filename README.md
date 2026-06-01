@@ -46,7 +46,7 @@ This landing page serves as the front door to everything — a clean, organized 
 ### SQL Query
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/SQL%20Query)
 
-[View HTML](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/SQL%20Query/SQL%20Query.html)
+[View HTML](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/Notebooks/SQL%20Query/SQL%20Query.html)
 
 ### Textual Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Satisfaction%20Prediction%20through%20Text%20Analysis%20of%20Automobile%20Manufacturer%20Reviews)
