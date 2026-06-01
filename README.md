@@ -70,6 +70,8 @@ This landing page serves as the front door to everything — a clean, organized 
 ### Washington States Electric Vehicle Population Analysis With Insights
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington)
 
+[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington/Understanding%20the%20Electric%20Vehicle%20Landscape%20in%20the%20State%20of%20Washington.html)
+
 ### How to Improve MLB Game Attendance
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance)
 
