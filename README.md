@@ -54,6 +54,8 @@ This landing page serves as the front door to everything — a clean, organized 
 ### Automobile Accident Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents)
 
+[View HTML](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/Notebooks/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents/The%20Patterns%20and%20Correlates%20of%20Automobile%20Accidents.html)
+
 ### Time Series Modeling
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Time%20Series%20Modeling)
 
@@ -64,7 +66,6 @@ This landing page serves as the front door to everything — a clean, organized 
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance)
 
 [View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/Notebooks/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance/Using%20Data%20to%20Improve%20MLB%20Game%20Attendance.html)
-
 
 ### White House WAVES Access Records Analysis
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/White%20House%20Logs%20Analysis) 
