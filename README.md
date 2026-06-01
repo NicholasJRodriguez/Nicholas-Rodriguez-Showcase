@@ -45,6 +45,8 @@ This landing page serves as the front door to everything — a clean, organized 
 ### Predicting the Stock Market
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/Predicting%20the%20Stock%20Market)
 
+[View HTML](https://nicholasjrodriguez.github.io/Nicholas-Rodriguez-Showcase/blob/main/Notebooks/Predicting%20the%20Stock%20Market/Predicting%20the%20Stock%20Market.html)
+
 ### SQL Query
 [View Notebook](https://github.com/NicholasJRodriguez/Nicholas-Rodriguez-Showcase/tree/main/Notebooks/SQL%20Query)
 
